@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Aptos", "Segoe UI", sans-serif;
+  --color-slate-950: #f4f7f5;
+  --color-slate-900: #ffffff;
+  --color-slate-800: #eef3f0;
+  --color-slate-700: #dce5df;
+  --color-slate-600: #748178;
+  --color-slate-500: #66746c;
+  --color-slate-400: #58665e;
+  --color-slate-300: #48574e;
+  --color-slate-200: #34433a;
+  --color-slate-100: #202d25;
+  --color-emerald-400: #087a55;
+  --color-emerald-500: #087653;
+  --color-emerald-600: #076247;
+  --color-rose-400: #be123c;
+  --color-rose-200: #9f1239;
+  --color-amber-400: #a16207;
+  --color-amber-200: #854d0e;
+  --color-purple-300: #6b21a8;
+  --color-purple-400: #7e22ce;
+  --color-blue-400: #1d4ed8;
+  --color-cyan-400: #0e7490;
+  --color-teal-400: #0f766e;
+}
+
+:root {
+  font-family: "Aptos", "Segoe UI", sans-serif;
+  color: #202d25;
+  background: #f4f7f5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  background: #f4f7f5;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #f4f7f5;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+.finance-app .text-slate-950,
+.finance-app .text-white {
+  color: #202d25 !important;
+}
+
+.finance-app .bg-rose-500.text-white,
+.finance-app .bg-purple-500.text-white,
+.finance-app .bg-purple-600.text-white {
+  color: #ffffff !important;
+}
+
+.finance-app [class~="hover:text-white"]:hover {
+  color: #202d25 !important;
+}
+
+.finance-app [class~="bg-rose-950/40"] {
+  background-color: #fff1f2;
+}
+
+.finance-app [class~="bg-amber-950/40"] {
+  background-color: #fffbeb;
+}
+
+.finance-app .rounded-2xl {
+  border-radius: 10px;
+}
+
+.finance-app .rounded-xl {
+  border-radius: 8px;
+}
